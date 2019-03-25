@@ -19,7 +19,7 @@ class Song
   end
 
   def self.artists
-    @@artists
+    @@artists.flatten
   end
 
   def self.genre
