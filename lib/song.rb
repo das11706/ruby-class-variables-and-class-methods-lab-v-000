@@ -22,7 +22,7 @@ class Song
     @@artists.uniq
   end
 
-  def self.genre
-    @@genres
+  def self.genres
+    @@genres.uniq
   end
 end
